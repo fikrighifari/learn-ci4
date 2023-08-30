@@ -8,4 +8,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('/test', 'Home::test');
 $routes->get('/hello', 'Hello::index');
-$routes->get('/say_hello', 'Hello::say_hello');
+$routes->get('/hello/say_hello/(:any)', 'Hello::say_hello/$1');
