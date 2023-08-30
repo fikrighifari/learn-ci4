@@ -1,0 +1,17 @@
+CRITICAL - 2023-08-29 03:45:37 --> App\Controllers\Home::test(): Return value must be of type string, none returned
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->test()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/training-ci/public/index.php')
+CRITICAL - 2023-08-29 07:27:14 --> Invalid file: "welcome_messagess.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messagess.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_messagess', [], true)
+ 3 APPPATH/Controllers/Home.php(9): view('welcome_messagess')
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/training-ci/public/index.php')
